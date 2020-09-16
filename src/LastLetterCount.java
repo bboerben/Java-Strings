@@ -4,6 +4,9 @@ import java.util.ArrayList;
 public class LastLetterCount {
     public static void main(String[] args) {
         String s = "He's crazy";
+
+        // Remove all the comma and period.
+        
         s = s.replaceAll(",|\\.", "").toLowerCase();
         StringTokenizer st = new StringTokenizer(s);
         ArrayList<String> tokens = new ArrayList<>();
