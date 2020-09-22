@@ -16,4 +16,6 @@ public class Consonants {
         }
         System.out.println(s.length() - count + " consonant(s)");
     }
+
+
 }
